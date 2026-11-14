@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Network captures and generated data
+data/raw/
+data/processed/
+data/rejected/
+
+# Logs
+*.log
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# IDE
+.vscode/
+.idea/
