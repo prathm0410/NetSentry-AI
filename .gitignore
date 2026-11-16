@@ -30,3 +30,7 @@ data/rejected/
 # IDE
 .vscode/
 .idea/
+# Generated audit outputs
+cic_*.txt
+cross_file_audit.txt
+duplicate_audit.txt
